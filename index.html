@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sedar Medical College</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="details">
+		<div class="heading">
+			<h3>Sedar Medical College Admission</h3>
+		</div>
+		
+			<form onsubmit="return display()">
+				 <div class="row">
+				 	<label>Student Name</label>
+				 	<input type="text" id="sname" placeholder="Enter the student name"></div>
+              <div class="row">
+              	<label>Phone Number</label>
+              	<input type="text" id="phno" placeholder="Enter the phone number"></div>
+            <div class="row">
+            	<label>Admission Id</label>
+            <input type="text" id="aid" placeholder="Enter the admission id">
+        </div>
+            <div class="row">
+            	<label>Date of Admission</label>
+            <input type="date" id="admissiondate">
+        </div>
+            <div class="row">
+            	<label>Department Name</label>
+            <select id="deptname">
+            	<option>Select Department</option>
+            	<option>MBBS</option>
+            	<option>BDS</option>
+            	<option>BHMS</option>
+            </select>
+        </div>
+            <div class="row">
+            	<label>Prefer College Hostel</label>
+            <span id="hostel">
+            	<input type="radio" id="yes" value="Yes" name="hostel">Yes
+            	<input type="radio" id="no" value="No" name="hostel">No
+            </span>
+            </div>
+            <div class="row">
+            	<label>First Graduate</label>
+            	<span id="checkbox">
+            		<input type="checkbox" id="firstGraduate">
+            		<span class="checkclick">Click if you are first graduate</span>
+            	</span>
+            </div>
+        
+            <div class="rows">
+            	<input type="submit" value="Confirm ADMISSION" id="submit" class="submit">
+            </div> 
+
+			
+		
+	</div>
+	<div id="result"></div>
+	</div>
+	
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
